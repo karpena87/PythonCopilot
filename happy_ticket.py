@@ -11,13 +11,13 @@ if cond_1 == 0 and cond_2:
     while i < (middle - 1):
         i = i + 1
         summ_1 = int (value [i]) + summ_1
-    print (summ_1) #для проверки вывод суммы
+    print ('Сумма первой половины цифр '+ str (summ_1)) #для проверки вывод суммы
 
     summ_2 = 0 #сумма второй половины цифр
     while i < (lenth_value - 1):
         i = i + 1
         summ_2 = int (value [i]) + summ_2
-    print (summ_2) #для проверки вывод суммы
+    print ('Сумма второй половины цифр '+ str (summ_2)) #для проверки вывод суммы
 
     if summ_1 == summ_2:
         print ('Ваш билет счастливый!')
